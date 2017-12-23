@@ -1,0 +1,84 @@
+body, code {
+  font-family: "Inconsolata", monospace;
+}
+
+h1, h2, h3 {
+  font-size: inherit;
+  display: inline;
+  font-weight: bold;
+}
+
+p {
+  margin: 20px 0;
+}
+
+h1 + p {
+  margin-top: 0;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 1000px;
+  padding: 30px;
+  margin: 40px auto;
+}
+
+.header {
+  width: 100%;
+  font-size: 1.4em;
+  margin: 30px auto;
+}
+
+.info-column {
+  margin-top: 60px;
+}
+
+.sep {
+  margin: 10px;
+}
+
+a, a:visited {
+  color: #9d261d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  background-color: #9d261d;
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+
+.flash-item {
+  animation: flash 8s linear 0s infinite;
+  -webkit-animation: flash 8s linear 0s infinite;
+  -moz-animation: flash 8s linear 0s infinite;
+  -o-animation: flash 8s linear 0s infinite;
+}
+
+@keyframes flash {
+  0%     {opacity: 1.0;}
+  10%    {opacity: 0.1;}
+  20%    {opacity: 1.0;}
+}
+@-webkit-keyframes flash {
+  0%     {opacity: 1.0;}
+  10%    {opacity: 0.1;}
+  20%    {opacity: 1.0;}
+}
+@-moz-keyframes flash {
+  0%     {opacity: 1.0;}
+  10%    {opacity: 0.1;}
+  20%    {opacity: 1.0;}
+}
+@-o-keyframes flash {
+  0%     {opacity: 1.0;}
+  10%    {opacity: 0.1;}
+  20%    {opacity: 1.0;}
+}
+
+
