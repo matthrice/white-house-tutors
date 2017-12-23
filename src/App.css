@@ -18,19 +18,20 @@ h1 + p {
 
 .main {
   box-sizing: border-box;
-  width: 1000px;
+  width: 85%;
   padding: 30px;
   margin: 40px auto;
 }
 
 .header {
   width: 100%;
-  font-size: 1.4em;
+  font-size: 1.6em;
   margin: 30px auto;
 }
 
 .info-column {
   margin-top: 60px;
+  font-size: 1.2em;
 }
 
 .sep {
