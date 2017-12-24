@@ -29,8 +29,8 @@ h1 + p {
   margin-top: 30px auto;
 }
 
-.info-column {
-  margin-top: 60px;
+.info-column, .contact-column, .tutor-info-block {
+  margin-top: 40px;
 }
 
 .content {
@@ -38,8 +38,7 @@ h1 + p {
 }
 
 .tutor-info-block {
-  margin-top: 60px;
-  width: 100%;
+  width: 95%;
   display:inline-block
 }
 
@@ -55,7 +54,7 @@ h1 + p {
   width: 15%;
   margin-right: 10px;
   border-radius: 50%;
-  border:5px solid #9d261d;
+  border:3px solid #9d261d;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
 }
@@ -65,8 +64,15 @@ h1 + p {
 }
 
 .title {
-  margin-top: 50px;
+  margin-top: 70px;
   font-size: 1.5em;
+}
+
+.title hr {
+  height: 2px;
+  border: 0;
+  border-top: 3px solid #9d261d;
+
 }
 
 .link, .link:visited {
