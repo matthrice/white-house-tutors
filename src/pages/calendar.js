@@ -1,13 +1,16 @@
 import React from 'react'
 import {
     TitleBlock,
-    Header
+    Header,
+    CalendarBlock
 } from '../components';
+
 
 const CalendarPage = () => (
     <div class="main">
         <Header />
         <TitleBlock title="Calendar"/>
+        <CalendarBlock />
     </div>
 );
 
