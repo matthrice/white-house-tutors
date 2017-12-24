@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import { HomePage, TutorPage } from './pages';
+import {
+  HomePage,
+  TutorPage,
+  ContactPage,
+  CalendarPage
+}
+from './pages';
 import {
   BrowserRouter as Router,
   Route,
@@ -14,6 +20,8 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/tutors' component={TutorPage} />
+          <Route path='/contact' component={ContactPage} />
+          <Route path='/calendar' component={CalendarPage} />
         </Switch>
       </Router>
     );
