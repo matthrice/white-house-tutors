@@ -5,15 +5,17 @@ const TutorPage = () => (
     <div class="main">
         <Header />
         <TitleBlock title="Tutors" />
-        <TutorInfoBlock 
-            imgsrc="http://eecs.umich.edu/eecs/about/articles/2016/paoletti200.jpg"
-            name="Dave"
-            description="Beast"
-        />
         <TutorInfoBlock
-            imgsrc="https://www.biography.com/.image/t_share/MTIwNjA4NjMzODg2NTc0MDky/abraham-lincoln-9382540-2-402.jpg "
-            name="Abraham"
-            description="Also a beast"
+            imgsrc="https://media.licdn.com/media/AAEAAQAAAAAAAAfxAAAAJDAzZTU3YzJmLWVjYmYtNGJlYi04ZDdkLTMzZDJlM2YyMmE4Nw.jpg"
+            name="Lloyd Shatkin"
+            description="Senior studying Data Science and Philosophy. Interning at XLP Capital this summer."
+            languages="C++, Python, R, SQL, J"
+        />
+        <TutorInfoBlock 
+            imgsrc="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAiUAAAAJGNiYmJhYTMzLTE5ZTctNDZiYS04YzkyLWRkYjE4OWNhOTg3Yw.jpg"
+            name="Matt Rice"
+            description="Junior studying Computer Science. Interning at Uber ATG this summer."
+            languages="C++, Javascript, Python, SQL"
         />
     </div>
 );

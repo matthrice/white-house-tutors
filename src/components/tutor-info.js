@@ -7,6 +7,7 @@ const TutorInfoBlock = (props) => (
             <div class="tutor-description">
                 <h1>{props.name}</h1>
                 <p>{props.description}</p>
+                <p><b>Languages: </b>{props.languages}</p>
             </div>
         </div>
     </div>

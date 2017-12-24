@@ -50,10 +50,14 @@ h1 + p {
   width: 80%;
 }
 
+
 .tutor-photo {
   width: 15%;
   margin-right: 10px;
   border-radius: 50%;
+  border:5px solid #9d261d;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
 }
 
 .sep {
