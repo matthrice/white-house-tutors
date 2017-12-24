@@ -26,28 +26,55 @@ h1 + p {
 .header {
   width: 100%;
   font-size: 1.6em;
-  margin: 30px auto;
+  margin-top: 30px auto;
 }
 
 .info-column {
   margin-top: 60px;
+}
+
+.content {
   font-size: 1.2em;
+}
+
+.tutor-info-block {
+  margin-top: 60px;
+  width: 100%;
+  display:inline-block
+}
+
+.tutor-description {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  float: right;
+  width: 80%;
+}
+
+.tutor-photo {
+  width: 15%;
+  margin-right: 10px;
+  border-radius: 50%;
 }
 
 .sep {
   margin: 10px;
 }
 
-a, a:visited {
+.title {
+  margin-top: 50px;
+  font-size: 1.5em;
+}
+
+.link, .link:visited {
   color: #9d261d;
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   text-decoration: underline;
 }
 
-a:focus {
+.link:focus {
   background-color: #9d261d;
   color: #fff;
   outline: none;
