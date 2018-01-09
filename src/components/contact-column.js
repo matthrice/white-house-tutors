@@ -37,7 +37,7 @@ class ContactColumn extends Component {
                                value={this.state.email}
                                onChange={this.handleChange}
                         />
-                        <p>Availability</p>
+                        <p>Availability:</p>
                         <input class="text-input"
                                type="text"
                                name="availability"
@@ -50,7 +50,7 @@ class ContactColumn extends Component {
                                   onChange={this.handleChange}
                         />
                         <br></br>
-                        <input class="submit-input" type="submit"></input>
+                        <input class="submit-input" type="submit"/>
                     </form>
                 </div>
             </div>
