@@ -16,6 +16,37 @@ h1 + p {
   margin-top: 0;
 }
 
+textarea {
+  border-radius: 4px;
+  border: 1px solid #9d261d;
+  width: 40%;
+  height: 90px;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+  padding: 8px;
+}
+
+input[type="text"] {
+  border: 0;
+  outline: 0;
+  width: 25%;
+  background: transparent;
+  border-bottom: 1px solid #9d261d;
+  font-family: "Inconsolata", monospace;
+  font-size: 1em;
+}
+
+.submit-input {
+  margin-top: 25px;
+  background-color: #9d261d;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 4px;
+  padding: 8px;
+  font-family: "Inconsolata", monospace;
+  cursor:pointer;
+}
+
 .main {
   box-sizing: border-box;
   width: 85%;

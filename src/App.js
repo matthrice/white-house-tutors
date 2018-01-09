@@ -4,7 +4,6 @@ import {
   HomePage,
   TutorPage,
   ContactPage,
-  CalendarPage
 }
 from './pages';
 import {
@@ -21,7 +20,6 @@ class App extends Component {
           <Route exact path='/' component={HomePage} />
           <Route path='/tutors' component={TutorPage} />
           <Route path='/contact' component={ContactPage} />
-          <Route path='/calendar' component={CalendarPage} />
         </Switch>
       </Router>
     );

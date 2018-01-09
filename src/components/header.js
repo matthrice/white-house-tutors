@@ -13,13 +13,11 @@ const Header = () => (
             <span class="flash-item" style={{animationDelay: '1.6s'}}>/</span>
             <span class="flash-item" style={{animationDelay: '1.7s'}}>/ </span>
         </span>
-        <strong>White House Tutoring</strong>
+        <strong>White House Tutors</strong>
         <span class="sep" aria-hidden="true">.</span>
         <Link to="/" class="link">Home</Link>
         <span class="sep" aria-hidden="true">.</span>
         <Link to="/tutors" class="link">Tutors</Link>
-        <span class="sep" aria-hidden="true">.</span>
-        <Link to="/calendar" class="link">Calendar</Link>
         <span class="sep" aria-hidden="true">.</span>
         <Link to="/contact" class="link">Contact</Link>
     </div>
