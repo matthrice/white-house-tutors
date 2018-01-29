@@ -12,8 +12,8 @@ $ npm install
 
 $ npm start
 
-![1](/public/photos/p1)
+![1](/public/photos/p1.png)
 
-![2](/public/photos/p2)
+![2](/public/photos/p2.png)
 
-![3](/public/photos/p3)
+![3](/public/photos/p3.png)
